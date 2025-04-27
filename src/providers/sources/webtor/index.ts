@@ -61,7 +61,7 @@ async function comboScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promis
 
 export const webtorScraper = makeSourcerer({
   id: 'webtor',
-  name: 'Webtor',
+  name: 'Webtor 🤝',
   rank: 2,
   disabled: false,
   flags: [flags.CORS_ALLOWED],
